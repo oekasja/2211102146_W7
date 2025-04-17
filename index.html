@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <!-- Import Google Sans Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="name">UKASYA ZULFIKAR RAMADAN</div>
+    <div class="nim">2211102146</div>
+    
+    <div class="buttons">
+        <button id="modalBtn" class="pulse-effect">MODAL</button>
+        <button id="merahBtn" class="pulse-effect">MERAH</button>
+        <button id="kuningBtn" class="pulse-effect">KUNING</button>
+        <button id="hijauBtn" class="pulse-effect">HIJAU</button>
+        <button id="biruBtn" class="pulse-effect">BIRU</button>
+    </div>
+    
+    <!-- Modal for profile -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content animate-modal">
+            <span class="close">&times;</span>
+            <h2>Profil Lengkap</h2>
+            <ul>
+                <li><strong>NAMA LENGKAP:</strong> Ukasya Zulfikar Ramadan</li>
+                <li><strong>NAMA PANGGILAN:</strong> Rama</li>
+                <li><strong>NIM:</strong> 2211102146</li>
+                <li><strong>HOBI:</strong> Makan makanan enak dan minum minuman enak</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Modal for red color -->
+    <div id="merahModal" class="modal">
+        <div class="color-modal-content animate-modal" style="background-color: #f44336;">
+            <span class="close" style="color: white;">&times;</span>
+            <div class="color-text">Ini warna MERAH</div>
+        </div>
+    </div>
+    
+    <!-- Modal for yellow color -->
+    <div id="kuningModal" class="modal">
+        <div class="color-modal-content animate-modal" style="background-color: #FFC107;">
+            <span class="close">&times;</span>
+            <div class="color-text">Ini warna KUNING</div>
+        </div>
+    </div>
+    
+    <!-- Modal for green color -->
+    <div id="hijauModal" class="modal">
+        <div class="color-modal-content animate-modal" style="background-color: #4CAF50;">
+            <span class="close" style="color: white;">&times;</span>
+            <div class="color-text">Ini warna HIJAU</div>
+        </div>
+    </div>
+    
+    <!-- Modal for blue color -->
+    <div id="biruModal" class="modal">
+        <div class="color-modal-content animate-modal" style="background-color: #2196F3;">
+            <span class="close" style="color: white;">&times;</span>
+            <div class="color-text">Ini warna BIRU</div>
+        </div>
+    </div>
+    
+    <!-- Import JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
